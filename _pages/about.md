@@ -11,7 +11,7 @@ I'm a master's student in Computer Science at **ETH Zürich**, working at the in
 
 I am a research assistant in the **Efficient Architecture and Systems Lab (EASL)** at ETH Zürich, supervised by Prof. Ana Klimovic, and a research fellow in the **Scalable Computing Systems Laboratory (SaCS)** at EPFL, supervised by Prof. Anne-Marie Kermarrec.
 
-Previously, I worked on distributed systems for **AWS Lambda** and was a research science intern at **IBM Research Zürich**. I studied Electrical Engineering and Computer Sciences at **UC Berkeley**, where I also worked on machine learning for gravitational lens discovery at Lawrence Berkeley National Laboratory.
+Previously, I worked on distributed systems for **AWS Lambda** and was a research science intern at **IBM Research Zürich**. I studied Electrical Engineering and Computer Sciences at **UC Berkeley**, where I also worked on **ML for science** at Lawrence Berkeley National Laboratory, supervised by Prof. Xiaosheng Huang in Dr. Saul Perlmutter’s group.
 
 ## Research interests
 
