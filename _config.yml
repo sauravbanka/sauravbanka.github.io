@@ -13,7 +13,7 @@ title                    : "Saurav Banka"
 title_separator          : "-"
 name                     : &name "Saurav Banka"
 description              : &description "Machine learning and systems researcher at ETH Zürich and EPFL."
-url                      : https://sauravbanka.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://sauravbanka.com # Canonical URL for metadata and the sitemap.
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sauravbanka/sauravbanka.github.io"
