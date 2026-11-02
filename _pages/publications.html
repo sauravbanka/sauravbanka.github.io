@@ -1,36 +1,54 @@
 ---
-layout: archive
-title: "Publications"
+layout: single
+title: "Publications and preprints"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<p>Find my publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+<p><small><sup>*</sup> Equal contribution.</small></p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2 id="systems">Systems</h2>
 
+<p id="s1"><strong>[S1]</strong> Kuchler, T.<sup>*</sup>, <strong>Banka, S.<sup>*</sup></strong>, Klimovic, A.
+<em>The End of Time (as a Cloud Billing Model)</em>.
+Accepted, SoCC ’26.</p>
 
+<h2 id="ml-for-science">ML for Science</h2>
 
+<p id="a1"><strong>[A1]</strong> Storfer, C. J., Magnier, E. A., Huang, X., Rubin, D., Schlegel, D. J., <strong>Banka, S.</strong>, et al.
+Gravitational Lenses in UNIONS and Euclid (GLUE) I.
+<em>ApJ</em> 999, 1 (2026).</p>
+
+<p id="a2"><strong>[A2]</strong> Inchausti, J. C., Storfer, C. J., Huang, X., Hsu, Y.-M., Kaufmann, B., Pasupala, C., <strong>Banka, S.</strong>, et al.
+Strong Lens Discoveries in DESI Legacy Imaging DR10 with Two Deep Learning Architectures.
+<em>ApJ</em> 1008, 102 (2026).</p>
+
+<p id="a3"><strong>[A3]</strong> Huang, X., Inchausti, J. C., Storfer, C. J., Tabares-Tarquinio, S., et al. (incl. <strong>Banka, S.</strong>).
+DESI Strong Lens Foundry II: DESI Spectroscopy for Strong Lens Candidates.
+<em>ApJ</em>, accepted (2026).</p>
+
+<p id="a4"><strong>[A4]</strong> Silver, E., Wang, R., Huang, X., Bolton, A., Storfer, C., <strong>Banka, S.</strong>
+ML-Driven Strong Lens Discoveries down to θ<sub>E</sub> ∼ 0.03″.
+<em>ApJ</em> 994, 1 (2025).</p>
+
+<p id="a5"><strong>[A5]</strong> Huang, X., Baltasar, S., Ratier-Werbin, N., Storfer, C., et al. (incl. <strong>Banka, S.</strong>).
+DESI Strong Lens Foundry I: HST Observations and Modeling with GIGA-Lens.
+<em>ApJ</em>, accepted (2025).</p>
+
+<p id="a6"><strong>[A6]</strong> Storfer, C., Huang, X., Gu, A., Sheu, W., <strong>Banka, S.</strong>, et al.
+New Strong Gravitational Lenses from DESI Legacy Imaging DR9.
+<em>ApJS</em> 274, 16 (2024).</p>
+
+<p id="a7"><strong>[A7]</strong> Huang, X., Storfer, C., Gu, A., Ravi, V., Pilon, A., Sheu, W., Venguswamy, R., <strong>Banka, S.</strong>, et al.
+Discovering New Strong Gravitational Lenses in DESI Legacy Imaging.
+<em>ApJ</em> 909, 27 (2021).</p>
+
+<h2 id="hci">HCI</h2>
+
+<p id="h1"><strong>[H1]</strong> Feng, D., Yun, B., <strong>Banka, S.</strong>, Wang, A.
+Reviewing How, Not Just What: Prompt Trail Review for Agentic AI-Mediated Software Development.
+Under submission to CHI ’27.</p>

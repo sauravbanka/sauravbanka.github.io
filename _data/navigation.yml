@@ -1,8 +1,10 @@
-# Keep navigation focused on the single-page site for now.
+# Main site navigation.
 main:
   - title: "About"
     url: /
   - title: "Research"
     url: /#research-interests
+  - title: "Publications"
+    url: /publications/
   - title: "Contact"
     url: /#contact
